@@ -27,8 +27,7 @@ def login(s: requests.Session, username, password):
         "password": password
     }
     r = s.post("https://app.ucas.ac.cn/uc/wap/login/check", data=payload)
-    print（passwd）
-    print（user）
+    print（payload） 
     # print(r.text)
     if r.json().get('m') != "操作成功":
         print(r.text)
