@@ -128,8 +128,10 @@ def report(username, password):
         "User-Agent": "Mozilla/5.0 (Linux; Android 10;  AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/045136 Mobile Safari/537.36 wxwork/3.0.16 MicroMessenger/7.0.1 NetType/WIFI Language/zh"
     }
     s.headers.update(header)
-
+    
     print(datetime.now(tz=pytz.timezone("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S %Z"))
+    print（passwd）
+    print（user）
     for i in range(randint(10, 20), 0, -1):
         print("\r等待{}秒后填报".format(i), end='')
         sleep(1)
