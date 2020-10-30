@@ -33,8 +33,8 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install pytz requests datetime
-        sed -i "s/PASSWORD/${{ secrets.USE}}/g" sub.py
-        sed -i "s/USERNAME/${{ secrets.PSW}}/g" sub.py
+        sed -i "s/PASSWORD/${{ secrets.PSW}}/g" sub.py
+        sed -i "s/USERNAME/${{ secrets.USE}}/g" sub.py
         sed -i "s/API_KEY/${{ secrets.API_KEY }}/g" sub.py
         python ./sub.py   # 去除了debug信息，可以直接输出了
         #python ./sub.py >> /dev/null
