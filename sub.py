@@ -10,7 +10,7 @@ from time import sleep
 from random import randint
 from datetime import datetime
 
-user = "user"  # sep账号
+user = "USERNAME"  # sep账号
 passwd = "PASSWORD"  # sep密码
 api_key = "API_KEY"  # server酱的api，填了可以微信通知打卡结果，不填没影响
 
