@@ -11,7 +11,7 @@ from random import randint
 from datetime import datetime
 
 user = "user"  # sep账号
-passwd = "passwd"  # sep密码
+passwd = "PASSWORD"  # sep密码
 api_key = "API_KEY"  # server酱的api，填了可以微信通知打卡结果，不填没影响
 
 # 开启debug将会输出打卡填报的数据，关闭debug只会输出打卡成功或者失败，如果使用github actions，请务必设置该选项为False
