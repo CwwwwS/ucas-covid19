@@ -138,7 +138,7 @@ def report(username, password):
     login(s, username, password)
     yesterday = get_daily(s)
     submit(s, yesterday)
-
+ 
 
 if __name__ == "__main__":
     report(username=user, password=passwd)
