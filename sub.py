@@ -140,5 +140,5 @@ def report(username, password):
     submit(s, yesterday)
  
 
-if __name__ == "__main__":
-    report(username=user, password=passwd)
+# if __name__ == "__main__":
+#     report(username=user, password=passwd)
